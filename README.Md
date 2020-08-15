@@ -1,6 +1,6 @@
 # Machine Learning - Heart Disease Classification
 
-In this project, we'll use a [heart disease dataset](https://www.kaggle.com/johnsmith88/heart-disease-dataset) taken from Kaggle, to create a classification machine learning model that will predict the presence of a heart disease in a patient, given their condition of the following medical factors:
+In this project, we'll use a [heart disease dataset](https://www.kaggle.com/ronitf/heart-disease-uci) taken from Kaggle, to create a classification machine learning model that will predict the presence of a heart disease in a patient, given their condition of the following medical factors:
 
 - age
 - sex
@@ -14,7 +14,7 @@ In this project, we'll use a [heart disease dataset](https://www.kaggle.com/john
 - oldpeak = ST depression induced by exercise relative to rest
 - the slope of the peak exercise ST segment
 - number of major vessels (0-3) colored by flourosopy
-- thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
+- thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 
 ## Installation
 
