@@ -23,7 +23,7 @@ This project uses conda as a environment/package manager. To easily run this pro
 First, clone this repository to your machine:
 
 ```bash
-git clone https://github.com/jorgepascoPE/heart-disease-classification.git
+git clone https://github.com/JorgePasco1/heart-disease-classification.git
 ```
 
 Then, create the environment folder with the dependencies within the project directory:
