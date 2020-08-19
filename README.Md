@@ -27,6 +27,7 @@ First, clone this repository to your machine:
 ```bash
 git clone https://github.com/JorgePasco1/heart-disease-classification.git
 ```
+### Using conda
 
 Then, create the environment folder with the dependencies within the project directory:
 
