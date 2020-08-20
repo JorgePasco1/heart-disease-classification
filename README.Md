@@ -46,3 +46,12 @@ And finally, if dependencies are correctly installed, you should be able to run:
 ```bash
 jupyter notebook
 ```
+### Troubleshooting tips
+
+Creating the enviroment you may have this problem **ResolvePackageNotFound**
+
+```bash
+ResolvePackageNotFound:
+  - dependencies not found
+```
+To solve the problem, move them under pip section in the .yml file
