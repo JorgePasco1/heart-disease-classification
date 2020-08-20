@@ -46,3 +46,46 @@ And finally, if dependencies are correctly installed, you should be able to run:
 ```bash
 jupyter notebook
 ```
+### Troubleshooting
+
+When creating the enviroment, you may encounter `ResolvePackageNotFound` problem:
+
+```bash
+ResolvePackageNotFound:
+  - dependencies not found
+```
+To solve the problem, move the problematic dependecies under pip section in the .yml file, like:
+
+```yml
+dependencies:
+  - appnope=0.1.0=py38_0
+  - attrs=19.3.0=py_0
+  - backcall=0.1.0=py38_0
+  - blas=1.0=mkl
+  - bleach=3.1.4=py_0
+  - ca-certificates=2020.6.24=0
+  - certifi=2020.6.20=py38_0
+  - cycler=0.10.0=py38_0
+  - dbus=1.13.14=h517e14e_0
+  - decorator=4.4.2=py_0
+  - defusedxml=0.6.0=py_0
+  ** all dependencies, except those not found **
+  - pip:
+    - jedi=0.17.0=py38_0
+    - jinja2=2.11.2=py_0
+    - joblib=0.15.1=py_0
+    - jpeg=9b=he5867d9_2
+    - jsonschema=3.2.0=py38_0
+    - jupyter=1.0.0=py38_7
+    - jupyter_client=6.1.3=py_0
+    - jupyter_console=6.1.0=py_0
+    - jupyter_core=4.6.3=py38_0
+    - kiwisolver=1.2.0=py38h04f5b5a_0
+    - libcxx=10.0.0=1
+    - libedit=3.1.20181209=hb402a30_0
+    - libffi=3.3=h0a44026_1
+    - libgfortran=3.0.1=h93005f0_2
+    - libiconv=1.16=h1de35cc_0
+    - libpng=1.6.37=ha441bb4_0
+    *** All dependencies not found ***
+```
